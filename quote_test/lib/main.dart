@@ -50,7 +50,17 @@ class _QuoteListState extends State<QuoteList> {
                   Container(
                     child :Column(
                       //child: Text('aa'),
-                      children: quotes.map((quote) => QuoteCard(quote : quote)).toList(),
+                      children: quotes.map((quote) => QuoteCard(
+                          quote : quote,
+                          delete: (){
+                            setState(() {
+                              quotes.remove(quote);
+                            });
+                          }
+                      )).toList(),
+                      //x[].map()依序丟x[]內的東東進function()
+                      //.tolist turn it to list
+                      //(quote) { return QuoteCard(quote : quote)}
                     ),
                   ),
                 ]
