@@ -1,17 +1,15 @@
-# world_time
-[進度筆記](https://neighborly-collard-666.notion.site/world-time-fc7b6c139b9a4637b343a5014e676d49)
+# <b>World Time App in FLUTTER </b>
 
-A new Flutter project.
+- This Flutter project encompasses all basics and advanced concepts of Flutter.
 
-## Getting Started
+- This app shows the current time of many time zones accros the world in one single user-friendly interface.
 
-This project is a starting point for a Flutter application.
+- This app uses an API to get the time of the desired location. This app thus integrates async processes as well to get the best results.
 
-A few resources to get you started if this is your first Flutter project:
+- Users are also offered a functionality to edit the location, which allows them to change the current location to a wide range of options offered. The cities are displayed using a List View.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Working screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Day time home page UI | Night time home page UI | 
+|-----------------------|-------------------------|
+![Image](https://i.imgur.com/qPnZHGi.png) | ![Image](https://i.imgur.com/RDQh1qo.png)
